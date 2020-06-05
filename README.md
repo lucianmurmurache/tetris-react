@@ -1,4 +1,24 @@
+## Tetris-React
+
+## [Demo](https://lucianmurmurache.github.io/tetris-react/)
+
+The game is built using hooks such as useEffect, useState but also custom hooks. 
+
+For a better overview, access src/hooks.
+
+## Images
+
+![Screenshot-1](https://github.com/lucianmurmurache/tetris-react/blob/master/src/img/tetris-1.png)
+![Screenshot-2](https://github.com/lucianmurmurache/tetris-react/blob/master/src/img/tetris-3.png)
+![Screenshot-3](https://github.com/lucianmurmurache/tetris-react/blob/master/src/img/tetris-4.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installation instructions
+
+* If you'd like to run this on your machine, download/clone the repository, navigate to the root directory and run `npm i`
+* Once the installation is complete, still in the root directory, run `npm start`
+* Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
