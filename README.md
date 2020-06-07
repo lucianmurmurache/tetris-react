@@ -11,6 +11,8 @@ For a better overview, access src/hooks.
 ![Screenshot-1](https://github.com/lucianmurmurache/tetris-react/blob/master/src/img/tetris-1.png)
 ![Screenshot-2](https://github.com/lucianmurmurache/tetris-react/blob/master/src/img/tetris-3.png)
 ![Screenshot-3](https://github.com/lucianmurmurache/tetris-react/blob/master/src/img/tetris-4.png)
+![Screenshot-4](https://github.com/lucianmurmurache/tetris-react/blob/master/src/img/tetris-2.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
