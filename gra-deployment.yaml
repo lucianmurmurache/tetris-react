@@ -1,0 +1,37 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: gra
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: gra
+  template:
+    metadata:
+      labels:
+        app: gra
+    spec:
+      containers:
+        - name: gra
+          image: jaro/game:2.0
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80
+      restartPolicy: Always
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: gra
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+      nodePort: 31000
+  selector:
+    app: gra
